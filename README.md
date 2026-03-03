@@ -25,23 +25,10 @@ Comprehensive AI Model Evaluation Framework with advanced techniques including *
 
 ## Installation
 
-### Full Installation (Default)
 ```bash
-pip install eval-ai-library
-```
-Installs all dependencies including LLM providers, data generation tools, and ML models.
-
-### Lightweight Installation (Tracing Only)
-```bash
-pip install eval-ai-library[lite]
-```
-Minimal installation with only `pydantic` and `aiohttp` for tracing functionality. Use this when you only need to collect traces without evaluation metrics or data generation.
-
-### Development Installation
-```bash
-git clone https://github.com/yourusername/eval-ai-library.git
+git clone https://github.com/firstlinesoftware/eval-ai-library.git
 cd eval-ai-library
-pip install -e ".[dev]"
+pip install -r requirements.txt
 ```
 
 ## Quick Start
@@ -1621,12 +1608,19 @@ This library implements techniques from:
 }
 ```
 
+## License
+
+This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
+
+The Apache 2.0 license grants you broad permissions including commercial use, modification, and distribution. It includes an explicit patent grant for contributor patents.
+
+**Courtesy request:** If you use this library in your project or product, we would appreciate (but do not require) a brief notification to the maintainers. This helps us understand how the library is used and prioritize improvements. You can reach us via [GitHub Issues](https://github.com/firstlinesoftware/eval-ai-library/issues) or email.
+
 ## Support
 
-- 📧 Email: alekslynx90@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/firstlinesoftware/eval-ai-library.git/issues)
-- 📖 Documentation: [Full Documentation](https://github.com/firstlinesoftware/eval-ai-library.git#readme)
+- 🐛 Issues: [GitHub Issues](https://github.com/firstlinesoftware/eval-ai-library/issues)
+- 📖 Documentation: [Full Documentation](https://github.com/firstlinesoftware/eval-ai-library#readme)
 
 ## Acknowledgments
 
-This library was developed to provide a comprehensive solution for evaluating AI models across different use cases and providers, with state-of-the-art techniques including G-Eval's probability-weighted scoring and automatic chain-of-thought generation.
+This library was developed by [First Line Software](https://firstlinesoftware.com) to provide a comprehensive solution for evaluating AI models across different use cases and providers, with state-of-the-art techniques including G-Eval's probability-weighted scoring and automatic chain-of-thought generation.
